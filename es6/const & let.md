@@ -1,3 +1,4 @@
+*const vs let*
 ```js
 const anotherInstructor = "Tim";
 anotherInstructor = "Elie"; // TypeError

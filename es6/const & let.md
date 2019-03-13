@@ -23,7 +23,7 @@ if(instructor === "Elie"){
 
 funFact; // ReferenceError!
 ```
-*Hoisting with let*
+*Hoisting with let*  
 let does hoist, but we cannot access the value - it is in a TDZ(Temporal Dead Zone)
 ```js
 function helloInstructor(){

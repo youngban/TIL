@@ -1,7 +1,7 @@
 ```javascript
 const anotherInstructor = "Tim";
 anotherInstructor = "Elie"; // TypeError
-const anotherInstructor = "elie; // SyntaxError
+const anotherInstructor = "elie"; // SyntaxError
 // can never redeclare a variable by the same name
 
 const numbers = [1,2,3,4];

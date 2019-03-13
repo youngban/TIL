@@ -1,4 +1,4 @@
-```javascript
+```js
 const anotherInstructor = "Tim";
 anotherInstructor = "Elie"; // TypeError
 const anotherInstructor = "elie"; // SyntaxError
@@ -13,19 +13,19 @@ numbers = "no!"; // TypeError
 let anotherInstructor = "Tim";
 anotherInstructor = "Elie";
 let anotherInstructor = "Tim"; // SyntaxError
-
+```
 *block scope*
-
+```js
 var instructor = "Elie";
 if(instructor === "Elie"){
     let funFact = "Plays the cello";
 }
 
 funFact; // ReferenceError!
-
+```
 *Hoisting with let*
 let does hoist, but we cannot access the value - it is in a TDZ(Temporal Dead Zone)
-
+```js
 function helloInstructor(){
     return elie;
     var elie = "ME!";
@@ -37,9 +37,9 @@ function helloSecondInstructor(){
     let colt = "HIM!";
 }
 helloSecondInstructor(); // ReferenceError
-
+```
 *Use Cases for let*
-
+```js
 for(var i = 0; i <5; i++){
     setTimeout(function(){
         console.log(i);

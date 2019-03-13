@@ -37,7 +37,7 @@ var instructor = {
     firstName = "Elie",
     //why can't we use an arrow function here?
     //If we use arrow function, sayHi function will not have its own keyword this    
-     and the keyword this will not refer to the instructor object anymore! 
+    //and the keyword this will not refer to the instructor object anymore! 
     sayHi: function(){
         setTimeout(() => {
             console.log("Hello " + this.firstName);

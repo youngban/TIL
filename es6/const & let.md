@@ -14,7 +14,7 @@ let anotherInstructor = "Tim";
 anotherInstructor = "Elie";
 let anotherInstructor = "Tim"; // SyntaxError
 
-block scope
+*block scope*
 
 var instructor = "Elie";
 if(instructor === "Elie"){
@@ -23,7 +23,7 @@ if(instructor === "Elie"){
 
 funFact; // ReferenceError!
 
-Hoisting with let
+*Hoisting with let*
 let does hoist, but we cannot access the value - it is in a TDZ(Temporal Dead Zone)
 
 function helloInstructor(){
@@ -38,7 +38,7 @@ function helloSecondInstructor(){
 }
 helloSecondInstructor(); // ReferenceError
 
-Use Cases for let
+*Use Cases for let*
 
 for(var i = 0; i <5; i++){
     setTimeout(function(){

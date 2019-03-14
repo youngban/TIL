@@ -1,8 +1,8 @@
-for in          / for of  
-속성의 key 반복  / 속성의 value 반복  
-                / Symbol.iterator 속성(Array, String, Map, Set ...)  
-                / Object는 Symbol.iterator 속성 X  
-                / index에 접근 X  
+for of                /for in          
+속성의 value 반복      /  속성의 key 반복  
+Symbol.iterator 속성(Array, String, Map, Set ...)  
+Object는 Symbol.iterator 속성 X  
+index에 접근 X  
 
 ```js
 for(let i in 'hello'){
